@@ -1,0 +1,45 @@
+.pagination {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 30px;
+  padding-right: 10px;
+}
+
+.pageInfo {
+  color: #8d8d8d;
+  font-size: 14px;
+  letter-spacing: -0.08px;
+}
+
+.pageControls {
+  display: flex;
+  align-items: center;
+}
+
+.pageButton {
+  margin-left: 10.5px;
+  background-color: #f0f0f0;
+  border: none;
+  width: 25px;
+  height: 25px;
+  text-align: center;
+  border-radius: 4px;
+  cursor: pointer;
+  color: #8d8d8d;
+}
+
+.pageButton:hover {
+  background-color: #e0e0e0;
+}
+
+.activePage {
+  background-color: #5c3fff;
+  color: white;
+}
+
+.ellipsis {
+  margin: 0 8px;
+  color: #8d8d8d;
+}
