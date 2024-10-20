@@ -3,6 +3,7 @@ import styles from "./Sidebar.module.css";
 import SingleSection from "./SingleSection/SingleSection";
 import useStore from "../../zustand/store";
 import Logo from "./Logo/Logo";
+import avatar from "../../images/avatar.png";
 
 const sectionsArray = [
   {
@@ -228,11 +229,7 @@ const Sidebar = () => {
       </ul>
       {/* User section */}
       <div className={styles.userSection}>
-        <img
-          src="/images/avatar.png" // replace with the correct path for your avatar image
-          alt="User avatar"
-          className={styles.avatar}
-        />
+        <img src={avatar} alt="User avatar" className={styles.avatar} />
         <div className={styles.userInfo}>
           <span className={styles.userName}>Evano</span>
           <span className={styles.userPosition}>Project Manager</span>
