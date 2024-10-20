@@ -3,7 +3,7 @@ import styles from "./Sidebar.module.css";
 import SingleSection from "./SingleSection/SingleSection";
 import useStore from "../../zustand/store";
 import Logo from "./Logo/Logo";
-import avatar from "../../images/avatar.png";
+import avatar from "./avatar.png";
 
 const sectionsArray = [
   {
